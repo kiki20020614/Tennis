@@ -41,5 +41,13 @@ namespace Tennis
 
             Assert.AreEqual(expected, Tennis.Scores("AAA"));
         }
+
+        [Test]
+        public void WhenPlayerWonOrderIsB_Return0vs15()
+        {
+            var expected = "0:15";
+
+            Assert.AreEqual(expected, Tennis.Scores("B"));
+        }
     }
 }
