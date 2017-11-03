@@ -18,6 +18,7 @@
             }
 
             scores = string.Format("{0}:{1}", TranslateScore(PointOfPlayerA), TranslateScore(PointOfPlayerB));
+            scores = scores == "40:40" ? "Deuce" : scores;
             return scores;
         }
 

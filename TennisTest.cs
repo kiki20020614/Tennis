@@ -85,7 +85,7 @@ namespace Tennis
         [Test]
         public void WhenPlayerWonOrderIsAAABBB_ReturnDeuce()
         {
-            var expected = "deuce";
+            var expected = "Deuce";
 
             Assert.AreEqual(expected, Tennis.Scores("AAABBB"));
         }
