@@ -15,8 +15,9 @@
         //}
         public static string Scores(string winOrder)
         {
-            if(string.Empty(winOrder))
+            if(string.IsNullOrEmpty(winOrder))
                 return "0:0";
+            return "15:0";
         }
     }
 }
