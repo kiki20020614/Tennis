@@ -31,7 +31,7 @@ namespace Tennis
         {
             var expected = "30:0";
 
-            Assert.AreEqual(expected, Tennis.Scores("A"));
+            Assert.AreEqual(expected, Tennis.Scores("AA"));
         }
     }
 }
